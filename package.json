@@ -1,6 +1,6 @@
 {
-  "name": "react-native-skeleton-content",
-  "version": "1.0.20",
+  "name": "@getcarline/react-native-skeleton-content",
+  "version": "1.1.0",
   "description": "A simple and fully customizable React Native component that implements a skeleton-like loader",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,8 +17,8 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
-    "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -75,13 +75,13 @@
     "prettier": "^1.18.2",
     "react": "^16.10.2",
     "react-native": "^0.62.2",
+    "react-native-gesture-handler": "^1.6.1",
     "react-native-unimodules": "^0.7.0-rc.1",
     "react-test-renderer": "^16.13.1",
-    "typescript": "^3.6.4",
-    "react-native-gesture-handler": "^1.6.1"
+    "typescript": "^3.6.4"
   },
   "dependencies": {
-    "expo-linear-gradient": "^8.0.0",
+    "expo-linear-gradient": "^9.1.0",
     "react-native-reanimated": "1.9.0",
     "react-native-redash": "^14.1.1"
   }
